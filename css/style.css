@@ -46,12 +46,12 @@ h2 {
 }
 h3 {
     font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 19px;
-text-align: center;
-margin-top: 47px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 47px;
 }
 span {
     color: #F7542E;
@@ -63,7 +63,100 @@ span {
 .color{
     margin-top: 120px;
 }
-p {
+.nav p {
     margin-left: 56px;
     margin-bottom: 25px;
+}
+.input {
+    font-weight: 600;
+    color: black;
+}
+.buttons {
+    padding-top: 53px;
+    padding-left: 83px;
+}
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+.b-1 {
+    min-width: 332px;
+    height: 60px;
+    max-width: 500px;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+.buttons p{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.p1 {
+    color: #333333;
+}
+.p2{
+    color: #828282;
+}
+button {
+    width: 81px;
+    height: 36px;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    border-style: none;
+    cursor: pointer;
+}
+.b1 {
+    background-color: #E0E0E0;
+}
+.b1:hover{
+    background-color: #AEAEAE;
+}
+.b1:focus {
+    background-color: #AEAEAE;
+}
+.b2{
+    background-color: #AEAEAE;
+}
+.b3 {
+    color:#3D5AFE;
+    border: 1px solid #3D5AFE;
+    background-color: transparent;
+}
+.b3:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+.b3:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+.b4 {
+    color:#3D5AFE;
+    border: 1px solid #3D5AFE;
+    background: rgba(41, 98, 255, 0.1);
+}
+.b5 {
+    color:#3D5AFE;
+    background-color: transparent;
+    box-shadow: none;
+}
+.b5:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+.b5:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+.b6 {
+    color:#3D5AFE;
+    background-color: rgba(41, 98, 255, 0.1);
+    box-shadow: none;
 }
